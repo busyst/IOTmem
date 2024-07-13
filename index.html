@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Free Storage</title>
+    <style>
+        :root {
+            --primary-color: #4CAF50;
+            --background-color: #f4f4f4;
+            --text-color: #333;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px var(--shadow-color);
+        }
+
+        h1, h2 {
+            color: var(--text-color);
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .api-example {
+            margin-bottom: 15px;
+        }
+
+        .api-example h3 {
+            margin-bottom: 5px;
+        }
+
+        .api-params {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>IoT Web Storage API</h1>
+        <p><strong>256 KiB (262144 bytes) of free disk space</strong> for your IoT devices, accessible via a simple HTTP API.</p>
+
+        <h2>API Usage</h2>
+
+        <div class="api-example">
+            <h3>1. Get Key</h3>
+            <p><strong>Method:</strong> GET</p>
+            <p><strong>Endpoint:</strong> <code>http://localhost:8080/key/</code></p>
+            <p><strong>Description:</strong> Retrieves a unique key for accessing storage.</p>
+        </div>
+
+        <div class="api-example">
+            <h3>2. Read Data</h3>
+            <p><strong>Method:</strong> GET</p>
+            <p><strong>Endpoint:</strong> <code>http://localhost:8080/api/get/{key}={offset}+{length}</code></p>
+            <p><strong>Example:</strong> <code>http://localhost:8080/api/get/LZc75h7xoLIcrL8zDcdQRMTkioHPdu56WiZKXvRpZCc=0+32</code></p>
+            <div class="api-params">
+                <p><strong>Key:</strong> LZc75h7xoLIcrL8zDcdQRMTkioHPdu56WiZKXvRpZCc=</p>
+                <p><strong>Offset:</strong> 0</p>
+                <p><strong>Length:</strong> 32</p>
+            </div>
+            <p><strong>Description:</strong> Reads 32 bytes from the start of the block.</p>
+        </div>
+
+        <div class="api-example">
+            <h3>3. Write Data</h3>
+            <p><strong>Method:</strong> POST</p>
+            <p><strong>Endpoint:</strong> <code>http://localhost:8080/api/get/{key}={offset}+{length}</code></p>
+            <p><strong>Example:</strong> <code>http://localhost:8080/api/get/LZc75h7xoLIcrL8zDcdQRMTkioHPdu56WiZKXvRpZCc=5+538</code></p>
+            <div class="api-params">
+                <p><strong>Key:</strong> LZc75h7xoLIcrL8zDcdQRMTkioHPdu56WiZKXvRpZCc=</p>
+                <p><strong>Offset:</strong> 5</p>
+                <p><strong>Length:</strong> 538</p>
+            </div>
+            <p><strong>Description:</strong> Writes data starting at offset 5 for 538 bytes.</p>
+            <p><strong>Caution:</strong> The length of the POST data should match the specified length in the URL.</p>
+        </div>
+    </div>
+</body>
+</html>
