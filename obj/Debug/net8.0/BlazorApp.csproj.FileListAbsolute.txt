@@ -27,3 +27,4 @@
 /home/jd/IOTmem/BlazorApp/obj/Debug/net8.0/BlazorApp.pdb
 /home/jd/IOTmem/BlazorApp/obj/Debug/net8.0/BlazorApp.genruntimeconfig.cache
 /home/jd/IOTmem/BlazorApp/obj/Debug/net8.0/ref/BlazorApp.dll
+/home/jd/IOTmem/BlazorApp/obj/Debug/net8.0/BlazorApp.sourcelink.json

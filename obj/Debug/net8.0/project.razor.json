@@ -50,43 +50,6 @@
         }
       },
       {
-        "HashCode": -19842759,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Components.Pages.Counter",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorApp.Components.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "BlazorApp.Components.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1491337790,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Components.Pages.Counter",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorApp.Components.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorApp.Components.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "BlazorApp.Components.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 1489882189,
         "Kind": "Components.Component",
         "Name": "BlazorApp.Components.Pages.Home",
@@ -124,37 +87,37 @@
         }
       },
       {
-        "HashCode": 547215654,
+        "HashCode": -19842759,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Components.Pages.Weather",
+        "Name": "BlazorApp.Components.Pages.Counter",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Weather"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Components.Pages.Weather",
-          "Common.TypeNameIdentifier": "Weather",
+          "Common.TypeName": "BlazorApp.Components.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
           "Common.TypeNamespace": "BlazorApp.Components.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -1117508396,
+        "HashCode": 1491337790,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Components.Pages.Weather",
+        "Name": "BlazorApp.Components.Pages.Counter",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Components.Pages.Weather"
+            "TagName": "BlazorApp.Components.Pages.Counter"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Components.Pages.Weather",
-          "Common.TypeNameIdentifier": "Weather",
+          "Common.TypeName": "BlazorApp.Components.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
           "Common.TypeNamespace": "BlazorApp.Components.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -19716,11 +19679,6 @@
     {
       "FilePath": "/home/jd/IOTmem/BlazorApp/Components/Pages/Home.razor",
       "TargetPath": "Components\\Pages\\Home.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/jd/IOTmem/BlazorApp/Components/Pages/Weather.razor",
-      "TargetPath": "Components\\Pages\\Weather.razor",
       "FileKind": "component"
     },
     {
