@@ -50,43 +50,6 @@
         }
       },
       {
-        "HashCode": 1489882189,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Components.Pages.Home",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Home"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorApp.Components.Pages.Home",
-          "Common.TypeNameIdentifier": "Home",
-          "Common.TypeNamespace": "BlazorApp.Components.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2145035503,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Components.Pages.Home",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorApp.Components.Pages.Home"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorApp.Components.Pages.Home",
-          "Common.TypeNameIdentifier": "Home",
-          "Common.TypeNamespace": "BlazorApp.Components.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -19842759,
         "Kind": "Components.Component",
         "Name": "BlazorApp.Components.Pages.Counter",
@@ -124,38 +87,75 @@
         }
       },
       {
-        "HashCode": -145961269,
+        "HashCode": 1489882189,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Components.Layout.NavMenu",
+        "Name": "BlazorApp.Components.Pages.Home",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Home"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Components.Layout.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "BlazorApp.Components.Layout",
+          "Common.TypeName": "BlazorApp.Components.Pages.Home",
+          "Common.TypeNameIdentifier": "Home",
+          "Common.TypeNamespace": "BlazorApp.Components.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -33407164,
+        "HashCode": 2145035503,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Components.Layout.NavMenu",
+        "Name": "BlazorApp.Components.Pages.Home",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Components.Layout.NavMenu"
+            "TagName": "BlazorApp.Components.Pages.Home"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Components.Layout.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "BlazorApp.Components.Layout",
+          "Common.TypeName": "BlazorApp.Components.Pages.Home",
+          "Common.TypeNameIdentifier": "Home",
+          "Common.TypeNamespace": "BlazorApp.Components.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1628436442,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Components.App",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorApp.Components.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorApp.Components",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1361460020,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Components.App",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorApp.Components.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorApp.Components.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorApp.Components",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -264,43 +264,6 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1628436442,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Components.App",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorApp.Components.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "BlazorApp.Components",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1361460020,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Components.App",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorApp.Components.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorApp.Components.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "BlazorApp.Components",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
         }
       },
       {
@@ -19670,11 +19633,6 @@
       "FilePath": "/home/jd/IOTmem/BlazorApp/Components/_Imports.razor",
       "TargetPath": "Components\\_Imports.razor",
       "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/home/jd/IOTmem/BlazorApp/Components/Layout/NavMenu.razor",
-      "TargetPath": "Components\\Layout\\NavMenu.razor",
-      "FileKind": "component"
     },
     {
       "FilePath": "/home/jd/IOTmem/BlazorApp/Components/Pages/Home.razor",
